@@ -1,0 +1,25 @@
+.favorites-wrapper {
+  width: 400px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  cursor: default;
+
+  .favorite {
+    width: 80%;
+    height: 60px;
+    background-color: rgb(128, 128, 128, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    cursor: default;
+
+    a {
+      text-decoration: none;
+      color: #000;
+      cursor: pointer;
+    }
+  }
+}
